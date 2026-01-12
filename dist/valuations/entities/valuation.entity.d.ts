@@ -1,0 +1,30 @@
+import { Vehicle } from '../../vehicles/entities/vehicle.entity';
+export declare class Valuation {
+    id: string;
+    estimatedValue: number;
+    currency: string;
+    valuationMethod: 'External API' | 'Manual Assessment' | 'Market Comparison' | 'Machine Learning' | 'Depreciation Model';
+    source?: string;
+    confidenceScore?: number;
+    minValue?: number;
+    maxValue?: number;
+    marketCondition: 'High Demand' | 'Stable' | 'Declining' | 'Volatile' | 'Unknown';
+    mileageAdjustment?: number;
+    conditionAdjustment?: number;
+    ageAdjustment?: number;
+    locationAdjustment?: number;
+    comparableVehiclesCount?: number;
+    daysSinceLastMarketAnalysis?: number;
+    externalData?: string;
+    notes?: string;
+    validityDays: number;
+    expiresAt?: Date;
+    isActive: boolean;
+    status: 'Pending' | 'In Progress' | 'Completed' | 'Failed' | 'Expired';
+    requestedBy?: string;
+    processingTimeMs?: number;
+    createdAt: Date;
+    updatedAt: Date;
+    vehicleId: string;
+    vehicle: Vehicle;
+}

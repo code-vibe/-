@@ -1,0 +1,30 @@
+export declare class CreateOfferDto {
+    loanId: string;
+    approvedAmount: number;
+    termMonths: number;
+    interestRate: number;
+    interestRateType?: 'Fixed' | 'Variable' | 'Mixed';
+    requiredDownPayment?: number;
+    processingFee?: number;
+    insurancePremium?: number;
+    otherFees?: number;
+    offerType?: 'Standard' | 'Premium' | 'Budget' | 'Special' | 'Promotional';
+    priority?: 'Low' | 'Medium' | 'High' | 'Urgent';
+    validityDays?: number;
+    termsAndConditions?: string;
+    specialConditions?: string;
+    collateralRequirements?: string;
+    requiredDocuments?: string[];
+    prepaymentPenalty?: string;
+    latePaymentPenaltyRate?: number;
+    gracePeriodDays?: number;
+    minCreditScore?: number;
+    maxDebtToIncomeRatio?: number;
+    employmentVerificationRequired?: boolean;
+    incomeVerificationRequired?: boolean;
+    riskBasedPricing?: boolean;
+    isPromotional?: boolean;
+    promotionalDiscount?: number;
+    currency?: string;
+    internalNotes?: string;
+}
