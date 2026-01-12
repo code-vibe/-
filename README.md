@@ -5,9 +5,9 @@
 
 A comprehensive backend API service for **Autochek's vehicle valuation and financing platform**. This service handles vehicle data ingestion, automated valuations using multiple methods, loan application processing with eligibility checks, and offer management.
 
-**Current Status: FULLY OPERATIONAL** 
 
-###  **Live API Endpoints** (Ready to Use)
+
+###  **API Endpoints** 
 - ** Interactive API Documentation**: http://localhost:3003/api/docs
 - ** Main API Base**: http://localhost:3003/api/v1  
 - ** Health Check**: http://localhost:3003/api/v1/health
@@ -31,14 +31,7 @@ A comprehensive backend API service for **Autochek's vehicle valuation and finan
 - **Confidence Scoring** - Reliability indicators (0-100 scale)
 - **Real-time Processing** - Instant valuation generation
 
-### **Loan Processing** (Ready for Integration)
-- **Intelligent Application Processing** - Structured loan data management
-- **Multi-factor Eligibility Assessment**:
-  - Age requirements (18-70 years)
-  - Income verification (minimum thresholds)  
-  - Employment status validation
-  - Risk scoring algorithms
-- **Application Status Tracking** - Complete workflow management
+management
 
 ## **Quick Start**
 
